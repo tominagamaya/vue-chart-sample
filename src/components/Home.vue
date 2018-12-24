@@ -1,12 +1,12 @@
 <template>
-  <section class="hero is-success is-fullheight">
+  <section class="hero">
     <div class="hero-body">
       <div class="container">
-        <h1>Creating Beautiful Charts Using Vue.js Wrappers For CHart.js</h1>
+        <h1>Creating Beautiful Charts Using Vue.js Wrappers For Chart.js</h1>
         <ul>
           <li><router-link to="/chartjs">vue-chartjs</router-link></li>
-          <li><router-link to="/charts">vue-charts</router-link></li>
-          <li><router-link to="/chartkick">vue-chartkick</router-link></li>
+          <!-- <li><router-link to="/charts">vue-charts</router-link></li>
+          <li><router-link to="/chartkick">vue-chartkick</router-link></li> -->
         </ul>
       </div>
     </div>
@@ -20,7 +20,11 @@ export default {
 </script>
 
 <style scoped>
-.home {
+.hero {
+  width: 100%;
+  height: 10%;
+}
+.container {
   display: flex;
   align-items: center;
   align-content: center;
@@ -36,9 +40,5 @@ ul {
 li {
   display: inline-block;
   margin: 0 10px;
-}
-a {
-  color: #42b983;
-  text-decoration: underline;
 }
 </style>
